@@ -1,0 +1,128 @@
+Buatkan website kelas modern, futuristik, premium, dan interaktif untuk kelas SMA dengan nama "KelasKu - XII IPA 1".
+
+STYLE UTAMA:
+
+- Gunakan konsep "like iOS app design + modern SaaS dashboard"
+- Gunakan animasi halus seperti "Framer / Apple website"
+- Hindari warna flat → wajib gunakan gradient, glow, dan lighting effect
+- Dominasi dark mode (hitam, navy, ungu gelap) + neon gradient (biru, ungu, pink, sedikit oranye)
+- Gunakan glassmorphism + blur + transparansi
+- UI harus terlihat seperti aplikasi mobile premium, bukan website biasa
+
+ANIMASI:
+
+- Smooth transition (fade, slide, scale)
+- Hover efek glow + elevate
+- Parallax ringan di background
+- Micro interaction di tombol & card
+- Loading skeleton modern
+- Scroll reveal animation
+
+STRUKTUR WEBSITE:
+
+1. HERO SECTION
+
+- Background: animated gradient + glowing orb + blur effect
+- Judul besar: "Kelas XII IPA 1"
+- Subjudul: motivasi kelas (dynamic text)
+- Tombol:
+  - "Lihat Anggota" (primary neon glow button)
+  - "Jadwal Hari Ini" (glass button)
+- Scroll indicator animasi (panah turun)
+
+2. QUICK STATS (GLASS CARD)
+
+- Total siswa
+- Mata pelajaran hari ini
+- Kehadiran (%)
+- Jadwal aktif sekarang
+- Card:
+  - Glass + blur
+  - Border gradient tipis
+  - Hover naik + glow
+
+3. FITUR UTAMA (GRID MODERN)
+
+- Anggota Kelas
+- Jadwal Real-Time
+- Album Kenangan
+- Tugas & Deadline
+- Pengumuman
+- Struktur Organisasi
+- Setiap card:
+  - Icon modern (lucide style)
+  - Gradient border
+  - Hover animasi + lighting effect
+
+4. HALAMAN ANGGOTA
+
+- Filter tab:
+  - Semua / Pengurus / Siswa (pill style iOS)
+- Card siswa:
+  - Foto bulat dengan gradient ring
+  - Nama + jabatan
+  - Hover:
+    - Scale up
+    - Shadow glow
+    - Muncul detail tambahan (bio/status)
+- Layout grid 2 kolom (mobile)
+
+5. JADWAL REAL-TIME
+
+- Auto detect hari & jam
+- Highlight pelajaran aktif dengan glow
+- Info:
+  - Mapel sekarang
+  - Guru
+  - Jam selesai
+  - Dresscode hari ini
+- Jika hari libur:
+  - Tampilkan "Hari Libur 🎉" dengan ilustrasi
+
+6. ALBUM KELAS
+
+- Grid foto modern (masonry style)
+- Hover zoom + overlay
+- Klik → fullscreen modal dengan animasi smooth
+
+7. PENGUMUMAN
+
+- Card glass:
+  - Judul
+  - Tanggal
+  - Badge (penting / biasa)
+- Pengumuman penting → sticky + highlight glow
+
+8. NAVIGATION (MOBILE APP STYLE)
+
+- Bottom navbar:
+  - Home
+  - Anggota
+  - Jadwal
+  - Album
+  - Profil
+- Active indicator animasi
+- Floating button (scroll to top)
+
+9. STYLE DETAIL
+
+- Font: Poppins / Inter
+- Icon: minimalis modern (lucide / heroicons)
+- Gunakan spacing lega & clean
+- Gunakan shadow soft + neon glow
+
+10. EXTRA PREMIUM FEATURE
+
+- Dark/light toggle dengan animasi smooth
+- Notifikasi realtime (dummy UI)
+- Progress bar kehadiran siswa
+- Quotes motivasi harian (auto berubah)
+- Musik background opsional (toggle on/off)
+- Jam digital real-time
+
+HASIL AKHIR:
+
+- Harus terlihat seperti aplikasi premium setara iOS / SaaS modern
+- Lebih keren dari UI dashboard sekolah biasa
+- UI clean, elegan, tidak terlalu ramai tapi tetap futuristik
+- Fokus ke UX smooth, modern, dan interaktif

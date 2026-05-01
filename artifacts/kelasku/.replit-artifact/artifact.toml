@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "KelasKu - XII IPA 1"
+version = "1.0.0"
+id = "artifacts/kelasku"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22832
+
+[services.development]
+run = "pnpm --filter @workspace/kelasku run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/kelasku", "run", "build" ]
+publicDir = "artifacts/kelasku/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22832"
+BASE_PATH = "/"
