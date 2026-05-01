@@ -151,18 +151,18 @@
   --elevate-1: rgba(255,255,255, .04);
   --elevate-2: rgba(255,255,255, .09);
 
-  /* Deep Black / Neon Luxury Theme */
-  --background: 240 52% 4%; /* #050510 */
+  /* Dark Navy / Neon Luxury Theme */
+  --background: 228 45% 13%; /* deep navy #111b3d */
   --foreground: 0 0% 98%;
-  --border: 240 40% 12%;
+  --border: 228 35% 22%;
   
-  --card: 240 44% 8%; /* #0a0a1a */
+  --card: 228 40% 17%; /* slightly lighter navy */
   --card-foreground: 0 0% 98%;
-  --card-border: 240 40% 12%;
+  --card-border: 228 35% 24%;
   
-  --sidebar: 240 44% 8%;
+  --sidebar: 228 40% 17%;
   --sidebar-foreground: 0 0% 98%;
-  --sidebar-border: 240 40% 12%;
+  --sidebar-border: 228 35% 22%;
   --sidebar-primary: 262 80% 50%;
   --sidebar-primary-foreground: 0 0% 100%;
   --sidebar-accent: 240 30% 15%;

@@ -47,10 +47,6 @@ const schedule = {
     { time: '12:00 - 12:30', subject: 'Istirahat', type: 'break' },
     { time: '12:30 - 14:00', subject: 'Bahasa Inggris', teacher: 'Bu Lisa' },
   ],
-  6: [ // Saturday
-    { time: '07:00 - 08:30', subject: 'Matematika', teacher: 'Bu Sari' },
-    { time: '08:30 - 11:00', subject: 'Ekstrakulikuler', type: 'special' },
-  ]
 };
 
 const days = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'];
@@ -67,7 +63,6 @@ export default function Jadwal() {
   const getDresscode = (dayIdx: number) => {
     if (dayIdx >= 1 && dayIdx <= 4) return 'Putih Abu-abu';
     if (dayIdx === 5) return 'Batik / Pramuka';
-    if (dayIdx === 6) return 'Olahraga';
     return 'Bebas Rapi';
   };
 
@@ -102,7 +97,7 @@ export default function Jadwal() {
       </div>
 
       <div className="flex overflow-x-auto pb-4 hide-scrollbar gap-2">
-        {[1, 2, 3, 4, 5, 6].map((d) => (
+        {[1, 2, 3, 4, 5].map((d) => (
           <button
             key={d}
             onClick={() => setActiveDay(d)}
